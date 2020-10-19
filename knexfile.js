@@ -8,7 +8,14 @@ module.exports = {
       // ?Some place you had to do file NOT from relative location. Here?
       filename: './data/car_database.db3'
     },
-    useNullAsDefault: true
+    useNullAsDefault: true,
+
+    //!!Why wasn't this in lecture?
+    //!! Do I need to create this file?
+    migrations: {
+      //? This didnt' make a subfolder it did some other weird thing. SHould I have made the folder first?
+      directory: './data/migrations'
+    }
   },
 
 //Not sure I should actually delete all of these
